@@ -19,7 +19,7 @@ class TweetCloner:
         
         # Wait for the search bar to appear
         print("Waiting for the search bar...")
-        WebDriverWait(self.driver, 10).until(
+        WebDriverWait(self.driver, 3).until(
             EC.presence_of_element_located((By.XPATH, '//input[@data-testid="SearchBox_Search_Input"]'))
         )
         
