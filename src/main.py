@@ -9,8 +9,8 @@ from tweet_cloner import TweetCloner
 load_dotenv()
 
 # Retrieve credentials and cookie file path from environment variables
-USERNAME = os.getenv("USERNAME")
-PASSWORD = os.getenv("PASSWORD")
+USERNAME = os.getenv("TWITTER_USERNAME")
+PASSWORD = os.getenv("TWITTER_PASSWORD")
 COOKIE_FILE = os.getenv("COOKIE_FILE")
 
 def main():

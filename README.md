@@ -44,6 +44,5 @@ python src/main.py
 - Ensure that you have the appropriate WebDriver installed for your browser (e.g., ChromeDriver for Google Chrome).
 - The application will save your session cookies to avoid logging in every time you run the script.
 - Make sure to comply with Twitter's terms of service when using this application.
-=======
-# clone-tweaks-x
->>>>>>> ea2711b83be0de06985bb39ec4105531e9f04cb7
+
+
