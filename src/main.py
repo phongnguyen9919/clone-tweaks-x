@@ -1,12 +1,17 @@
+import os
+from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from twitter_login import TwitterLogin
 from tweet_cloner import TweetCloner
 
-# Replace with your credentials and cookie file path
-USERNAME = "phongnguyen9919"
-PASSWORD = "Phong789123"
-COOKIE_FILE = "twitter_cookies.pkl"
+# Load environment variables from .env file
+load_dotenv()
+
+# Retrieve credentials and cookie file path from environment variables
+USERNAME = os.getenv("USERNAME")
+PASSWORD = os.getenv("PASSWORD")
+COOKIE_FILE = os.getenv("COOKIE_FILE")
 
 def main():
     # Set up Chrome options to open in full-screen mode

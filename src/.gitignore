@@ -1,0 +1,21 @@
+# Exclude environment variables
+.env
+
+# Exclude Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclude logs
+*.log
+
+# Exclude virtual environments
+venv/
+.venv/
+
+# Exclude system files
+.DS_Store
+Thumbs.db
+
+# Exclude downloads directory
+downloads/
